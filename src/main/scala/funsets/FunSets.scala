@@ -55,11 +55,11 @@ object FunSets {
    */
   def forall(s: Set, p: Int => Boolean): Boolean = {
     def iter(a: Int): Boolean = {
-      if (???) ???
-      else if (???) ???
-      else iter(???)
+      if (a == 0) true
+      else if (true) true
+      else iter(0)
     }
-    iter(???)
+    iter(0)
   }
 
   /**
