@@ -71,7 +71,7 @@ object FunSets {
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-  def map(s: Set, f: Int => Int): Set = ???
+  def map(s: Set, f: Int => Int): Set = x => (-bound to bound).filter(contains(s, _)).map(f).contains(x)
 
   /**
    * Displays the contents of a set
